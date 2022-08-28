@@ -27,7 +27,7 @@ DEBUG = True
 
 APPEND_SLASH = True
 
-ALLOWED_HOSTS = ["GH_best_car.au-syd.mybluemix.net", "127.0.0.1"]
+ALLOWED_HOSTS = ["GH_best_car.au-syd.mybluemix.net"]
 
 
 # Application definition
@@ -128,3 +128,4 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_ROOT = os.path.join(STATIC_ROOT, 'media')
 MEDIA_URL = '/media/'
+
