@@ -27,7 +27,7 @@ DEBUG = True
 
 APPEND_SLASH = True
 
-ALLOWED_HOSTS = ["GH_best_car.au-syd.mybluemix.net" , '127.0.0.1']
+ALLOWED_HOSTS = [" GH_best_cars.au-syd.cf.appdomain.cloud"]
 
 
 # Application definition

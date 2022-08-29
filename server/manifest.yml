@@ -1,12 +1,13 @@
 applications:
   - name: djangoapp
     routes:
-      - route: GH_best_car.au-syd.mybluemix.net #$HOST.DOMAIN
+      - route: GH_best_cars.au-syd.cf.appdomain.cloud #$HOST.DOMAIN
     memory: 128M
-    buildpack: python_buildpack
+    buildpack: https://github.com/cloudfoundry/python-buildpack.git #python_buildpack
   - name: djangoapp-nginx
     routes:
-      - route: GH_best_car.au-syd.mybluemix.net/static #$HOST.$DOMAIN/static
+      - route: GH_best_cars.au-syd.cf.appdomain.cloud/static #$HOST.$DOMAIN/static
     memory: 128M
-    buildpack: staticfile_buildpack
+    buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git #staticfile_buildpack
+    # staticfile_buildpack
 # GH_best_car.au-syd.mybluemix.net
